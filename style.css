@@ -504,6 +504,19 @@ transition:.5s;
   text-shadow: 0px 0px 2px white, 0px 0px 3px white, 0px 0px 5px white;
 }  
 
+#neossg table {
+  font-size: 14px;
+}
+
+#neossg, a:link, a:visited, a:hover {
+  text-decoration: none;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  letter-spacing: normal;
+  text-shadow: none;
+}
+
 .tab-content .tabboi {
   display: none;
 }

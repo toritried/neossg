@@ -59,7 +59,7 @@ else {
   <table>
     <tr>
       <td class='webring-prev'><a href='${sites[previousIndex]}'>&#60;&#60;</a></td>
-      <td class='webring-info'><b><a href="https://neossg.neocities.org">${ringName}</a></b></br>
+      <td class='webring-info'><a href="https://neossg.neocities.org">${ringName}</a></br>
       </span></td>
       <td class='webring-next'><a href='${sites[nextIndex]}'>&#62;&#62;</a></td>
     </tr>

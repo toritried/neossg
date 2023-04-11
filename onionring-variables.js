@@ -9,6 +9,7 @@
 var sites = [
 'https://lostletters.neocities.org/',
 'https://neossg.neocities.org/',
+'http://localhost:4000/',
 ];
 
 //the name of the ring
