@@ -1,0 +1,247 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NeoSSG: A webring for Neocities sites made with static site generators</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link rel="stylesheet" href="/onionring.css">
+    <link rel="icon" type="image/gif" href="/assets/favicon.ico"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <script>
+window.addEventListener("load", function() {
+	// store tabs variable
+	var myTabs = document.querySelectorAll("span.js > a");
+  function myTabClicks(tabClickEvent) {
+		for (var i = 0; i < myTabs.length; i++) {
+			myTabs[i].classList.remove("active");
+		}
+		var clickedTab = tabClickEvent.currentTarget;
+		clickedTab.classList.add("active");
+		tabClickEvent.preventDefault();
+		var myContentPanes = document.querySelectorAll(".tabboi");
+		for (i = 0; i < myContentPanes.length; i++) {
+			myContentPanes[i].classList.remove("active");
+		}
+		var anchorReference = tabClickEvent.target;
+		var activePaneId = anchorReference.getAttribute("href");
+		var activePane = document.querySelector(activePaneId);
+		activePane.classList.add("active");
+	}
+	for (i = 0; i < myTabs.length; i++) {
+		myTabs[i].addEventListener("click", myTabClicks)
+	}
+});
+</script>
+  </head>
+  <body>
+    <div id="bar"></div>
+    <div id="container">
+      <div class="ctrl">
+        <span class="h"><a href="#">// NeoSSG Webring</a></span>
+        <div class="ctrls">
+          <span class="ctrl1">&nbsp;</span>
+          <span class="ctrl2">&nbsp;</span>
+          <span class="ctrl3">&nbsp;</span>
+        </div>
+      </div> 
+      <div id="blog">
+       <div class="tab-content">
+          <div id="tab-1" class="tabboi active">
+            <div class="b">
+              <h1><span class="pad">About</span></h1>
+              <div class="text">
+              Welcome to <b>NeoSSG</b>, a webring for Neocities sites made with <a target="_blank" href="https://en.wikipedia.org/wiki/Static_site_generator">static site generators</a> (<i>"SSGs"</i>) like Jekyll, Hugo, Eleventy, etc. This webring <b>celebrates SSG users of all skill levels</b> and aims to <i>promote diverse and unique personal sites</i> we make using these tools.
+              </div>
+              <div class="date">
+                <span class="d">Welcome!</span>
+              </div>
+            </div>
+            <div class="b">
+              <h1><span class="pad">Requirements</span></h1>
+              <div class="text">
+                To keep this webring <b>welcoming to all</b>, websites must meet these requirements:
+                <ul>
+                    <li>hosted on Neocities</li>
+                    <li>built using an SSG (<i>all SSGs are welcome</i>)</li>
+                    <li>is a personal website</li>
+                    <li>⚠️ NSFW/18+ content is behind a disclaimer/warning</li>
+                    <li>🚫 no third-party ads</li>
+                    <li>🚫 no hate speech, bigotry, or discriminatory content</li>
+                </ul>
+                You <b>must</b> put the code on an <b>index, splash/landing, or  cliques/webrings/joined page</b> <i>before</i> you apply. If the code isn't on your page when you apply, you won't be added when your application is reviewed.   
+                <br>
+                <br>
+                Your status within the webring is subject to change if your site breaks any of the above requirements. You can re-apply once you meet the requirements again.
+              </div>
+              <div class="date">
+                <span class="d">Established April 2023</span>
+              </div>
+            </div>
+            <div class="b">
+              <h1>
+                <span class="pad">Application Form</span>
+              </h1>
+              <div class="text">
+                <form
+                  action="https://formspree.io/f/mzbqkrll"
+                  method="POST"
+                  style="padding-left: 5%;"
+                >
+                  <div class="field">
+                    <label for="site-name"><b>Site Name *</b></label>
+                    <br>
+                    <input type="text" style="width: 95%;" name="site-name" id="site-name" required>
+                  </div>
+                  <div class="field">
+                    <label for="site-url"><b>Site URL *</b></label>
+                    <br>
+                    <input type="text" style="width: 95%;" name="site-url" id="site-url" placeholder="https://site.neocities.org" required>
+                  </div>
+                  <div class="field">
+                    <label for="neocities-profile"><b>Neocities Profile URL if you have a domain</b></label>
+                    <br>
+                    <input type="text" style="width: 95%;" name="neocities-url" id="neocities-url" placeholder="https://neocities.org/site/sitename">
+                  </div>
+                  <div class="field">
+                    <label for="ssg"><b>Which SSG do you use for your site? *</b></label>
+                    <br>
+                    <input type="text" style="width: 95%;" name="ssg" id="ssg" placeholder="Examples: Jekyll, Hugo, Eleventy, etc." required>
+                  </div>
+                  <div class="field">
+                    <label for="email"><b>Email *</b></label>
+                    <br>
+                    <input type="email" style="width: 95%;" name="email" id="email" required>
+                  </div>
+                  <div class="field">
+                    <label for="site-description"><b>Site Description *</b></label>
+                    <br>
+                    <textarea name="message" style="width: 95%;" id="site-description" required></textarea>
+                  </div>
+                  <button type="submit">Send</button>
+                </form>
+              </div>
+              <div class="date">
+                <span class="d">Thanks for applying!</span>
+              </div>
+            </div>
+          </div>
+          <div id="tab-2" class="tabboi">
+            <div class="b">
+              <h2>
+                <span class="pad">Surf on</span>
+              </h2>
+              <div class="text">
+                <b>Website</b>: <a target="_blank" href="https://lostletters.neocities.org/">Lost Letters</a>
+                <br>
+                <b>SSG</b>: Jekyll
+                <br>
+                <b>Description</b>: a personal website & home of the Afternoon Tea Pixel Club
+                <!-- TEMPLATE
+                <br>
+                <br>
+                <b>Website URL</b>:
+                <br>
+                <b>SSG</b>:
+                <br>
+                <b>Description</b>:
+                <br>
+                <br> -->
+              </div>
+              <div class="date">
+                <span class="d">Last updated: April 2023</span>
+              </div>
+            </div>
+          </div>
+          <div id="tab-3" class="tabboi">
+            <div class="b">
+              <h2>
+                <span class="pad">Webring Code</span>
+              </h2>
+              <div class="text">
+                This is the code that you need to add to your site before applying to join the webring:
+                <br>
+                <br>
+                <textarea data-dl-input-translation="true" style="width: 100%; height: 115px; border: 1px solid #2f1e6e; font-size: 10pt; line-height: 1em;"><div id='neossg'>
+  <script type="text/javascript" src="https://neossg.neocities.org/onionring-variables.js"></script>
+  <script type="text/javascript" src="https://neossg.neocities.org/onionring-widget.js"></script>
+</div></textarea>
+                <br>
+                <b>Note:</b> this code will display <i>"This site is pending approval to join the NeoSSG webring."</i> until you are added to the webring. Applications will be reviewed in 1-2 days max.
+                <br>
+                <br>
+                If you like the <b>alternating colors</b> of the webring as it appears on this site, please add the following into &#60;head&#62;&#60;/head&#62; of your page:
+                <br>
+                <br>
+  <textarea data-dl-input-translation="true" style="width: 100%; height: 40px; border: 1px solid #2f1e6e; font-size: 10pt; line-height: 1em;"><link rel="stylesheet" href="https://neossg.neocities.org/onionring.css"></textarea>
+                <br>
+                <br>
+                <b>If you prefer to style the webring yourself</b>, don't include the css line above. Instead, you can override the default css by selecting #webringid wherever you do your css stuff. You can learn how to work with the css and download the default css file on the <a target="_blank" href="https://garlic.garden/onionring/">onionring website</a>, which powers this webring. 
+              </div>
+              <div class="date">
+                <span class="d">Just like magic ✨</span>
+              </div>
+            </div>
+          </div>
+          <div id="tab-4" class="tabboi">
+            <div class="b">
+              <h2>
+                <span class="pad">Credits</span>
+              </h2>
+              <div class="text">
+                Here are all these folks who made this website and webring possible: 
+                <br>
+                <br>
+                ♡ Layout: <a target="_blank" href="https://cepheus.neocities.org/content/layouts">cepheus.neocities.org</a>
+                <br>
+                ♡ Patterns: <a target="_blank" href="https://www.patterncooler.com/">patterncooler.com</a>
+                <br>
+                ♡ Webring script: <a target="_blank" href="https://garlic.garden/onionring/">onionring.js</a>
+                <br>
+                ♡ HTML form: <a target="_blank" href="https://formspree.io/">formspree.io</a>
+                <br>
+                ♡ Favicon: <a target="_blank" href="https://www.favicon.cc/?action=icon&file_id=989460">Amna</a>
+                <br>
+                ♡ Layout gif: <a target="_blank" href="https://giphy.com/gifs/art-artist-on-tumblr-delirium-lab-xTiTnBcHFZQKrPNMTC">krikrak@</a>
+                <br>
+                ♡ Gradient text animation: <a target="_blank" href="https://codepen.io/alvarotrigo/pen/PoKMyNO">@alvarotrigo</a>
+              </div>
+              <div class="date">
+                <span class="d">Thank you!</span>
+              </div>
+            </div>
+          </div>
+          </div>
+    </div>   
+    <div id="side">    
+      <div class="sidebox">
+        <div class="sideimg">
+        </div>
+      <div class="t">
+        A webring for Neocities sites made with static site generators
+      </div>
+      </div>
+      <div class="sidebox">
+        <div class="nav">
+          <span class="js">
+            <a href="#tab-1" class="first">Home</a>
+            <a href="#tab-2">Members</a>
+            <a href="#tab-3">Webring Code</a>
+            <a href="#tab-4" class="last">Credits</a>
+          </span>
+        </div>
+      </div>
+      <div class="sidebox">
+        <h1 style="margin-top: 6px;">Surf the Ring</h1>
+        <div class="t2">
+          <div id='neossg'>
+            <script type="text/javascript" src="onionring-variables.js"></script>
+            <script type="text/javascript" src="onionring-widget.js"></script>
+          </div>
+        </div>
+      </div>
+    </div>
+      <div class="footer">&copy; NeoSSG 2023. Managed by <a target="_blank" href="https://lostletters.neocities.org/">Lost Letters</a> //</div>
+        </div>
+  </body>
+</html>

@@ -1,0 +1,72 @@
+/* onionring.js is made up of four files - onionring-widget.js, onionring-index.js, onionring-variables.js and onionring.css (this one!)
+// it's licensed under the cooperative non-violent license (CNPL) v4+ (https://thufie.lain.haus/NPL.html)
+// it was originally made by joey + mord of allium (蒜) house, last updated 2020-10-24 */
+
+/* === ONIONRING.CSS === */
+/* this file affects the style of the widget. remember to replace all instances of #webringid with whatever value you have for ringID in the onionring-widget.js file. make sure it still has the # at the front, though! probably easiest to use find+replace to do it */
+
+#neossg {
+  margin: 0 auto;
+  padding: 5px; /* creates some space around the widget */
+/** gradient animation from https://alvarotrigo.com/blog/css-text-animations/ **/
+  background-image: linear-gradient(
+    -225deg,
+    #522aff 0%,
+    #d916eb 50%,
+    #522aff 100%
+  );
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #44107a;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+      font-size: 190px;
+  text-shadow: none;
+  text-decoration: none;
+  vertical-align: baseline;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+#neossg, a:link, a:visited, a:hover {
+  text-decoration: none;
+  -moz-transition:.5s;
+  -webkit-transition:.5s;
+  transition:.5s;
+  letter-spacing: normal;
+  text-shadow: none;
+}
+
+#neossg table {
+  margin: 0 auto; /* centers the widget */
+  font-size: 14px;
+}
+
+#neossg table tr td {
+  padding: 2px; /* creates some space between the links and text inside the widget */
+}
+
+#neossg .webring-prev {
+  text-align:right;
+}
+
+#neossg .webring-info {
+   text-align:center;
+}
+
+#neossg .webring-next {
+  text-align:left;
+}
+
+#neossg .webring-links {
+  font-size:small;
+}
