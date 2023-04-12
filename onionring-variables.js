@@ -10,7 +10,7 @@ var sites = [
 'https://lostletters.neocities.org/',
 'https://neossg.neocities.org/',
 'https://reduxflakes.neocities.org',
-'https://flamedfury.com/',
+'https://flamedfury.com/'
 ];
 
 //the name of the ring
