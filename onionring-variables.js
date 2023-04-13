@@ -10,7 +10,8 @@ var sites = [
 'https://lostletters.neocities.org/',
 'https://neossg.neocities.org/',
 'https://flamedfury.com/',
-'https://reduxflakes.neocities.org'
+'https://reduxflakes.neocities.org',
+'https://bytemoth.neocities.org/webrings/'
 ];
 
 //the name of the ring
