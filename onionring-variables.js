@@ -11,7 +11,8 @@ var sites = [
 'https://neossg.neocities.org/',
 'https://flamedfury.com/',
 'https://reduxflakes.neocities.org',
-'https://bytemoth.neocities.org/webrings/'
+'https://bytemoth.neocities.org/webrings/',
+'https://nenrikido.neocities.org/'
 ];
 
 //the name of the ring
