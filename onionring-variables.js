@@ -12,7 +12,8 @@ var sites = [
 'https://flamedfury.com/',
 'https://reduxflakes.neocities.org',
 'https://bytemoth.neocities.org/webrings/',
-'https://nenrikido.neocities.org/'
+'https://nenrikido.neocities.org/',
+'https://lugaw.gay/'
 ];
 
 //the name of the ring
