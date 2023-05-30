@@ -13,7 +13,9 @@ var sites = [
 'https://reduxflakes.neocities.org',
 'https://bytemoth.neocities.org/webrings/',
 'https://nenrikido.neocities.org/',
-'https://lugaw.gay/'
+'https://lugaw.gay/',
+'https://lime360.neocities.org/',
+'https://10kph.neocities.org/'
 ];
 
 //the name of the ring
