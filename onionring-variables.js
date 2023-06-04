@@ -15,7 +15,8 @@ var sites = [
 'https://nenrikido.neocities.org/',
 'https://lugaw.gay/',
 'https://lime360.neocities.org/',
-'https://10kph.neocities.org/'
+'https://10kph.neocities.org/',
+'https://dabric.neocities.org/out/'
 ];
 
 //the name of the ring
