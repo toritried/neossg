@@ -16,7 +16,8 @@ var sites = [
 'https://lugaw.gay/',
 'https://lime360.neocities.org/',
 'https://10kph.neocities.org/',
-'https://dabric.neocities.org/'
+'https://dabric.neocities.org/',
+'https://neocities.org/site/punkfairie'
 ];
 
 //the name of the ring
