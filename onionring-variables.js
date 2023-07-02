@@ -17,7 +17,8 @@ var sites = [
 'https://lime360.neocities.org/',
 'https://10kph.neocities.org/',
 'https://dabric.neocities.org/',
-'https://neocities.org/site/punkfairie'
+'https://neocities.org/site/punkfairie',
+'https://fri11s.neocities.org/'
 ];
 
 //the name of the ring
