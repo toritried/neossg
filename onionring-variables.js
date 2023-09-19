@@ -19,7 +19,8 @@ var sites = [
 'https://neocities.org/site/punkfairie',
 'https://fri11s.neocities.org/',
 'https://san-tagoy.online/',
-'https://deadrodrick.neocities.org/'
+'https://deadrodrick.neocities.org/',
+'https://vm70.neocities.org'
 ];
 
 //the name of the ring
