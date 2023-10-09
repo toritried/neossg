@@ -20,7 +20,8 @@ var sites = [
 'https://san-tagoy.online/',
 'https://deadrodrick.neocities.org/home',
 'https://vm70.neocities.org',
-'https://whiona.me'
+'https://whiona.me',
+'https://nonkiru.art/links/'
 ];
 
 //the name of the ring
