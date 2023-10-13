@@ -28,11 +28,7 @@ function randomSite() {
 //if we didn't find the site in the list, the widget displays a warning instead
 if (thisIndex == null) {
   tag.insertAdjacentHTML('afterbegin', `
-<table>
-  <tr>
-    <td>This site is pending approval to join the <a target="_blank" href="https://neossg.neocities.org/">${ringName} webring</a>.</td>
-  </tr>
-</table>
+    <span>This site is pending approval to join the <a target="_blank" href="https://neossg.neocities.org/">${ringName} webring</a>.</span>
   `);
 }
 else {
@@ -56,14 +52,9 @@ else {
 
   //this is the code that displays the widget - EDIT THIS if you want to change the structure
   tag.insertAdjacentHTML('afterbegin', `
-  <table>
-    <tr>
-      <td class='webring-prev'><a href='${sites[previousIndex]}'>&#60;&#60;</a></td>
-      <td class='webring-info'><a href="https://neossg.neocities.org">${ringName}</a></br>
-      </span></td>
-      <td class='webring-next'><a href='${sites[nextIndex]}'>&#62;&#62;</a></td>
-    </tr>
-  </table>
+    <span class='webring-prev'><a href='${sites[previousIndex]}'>&#60;&#60;</a></span>
+    <span class='webring-info'><a href="https://neossg.neocities.org">${ringName}</a></span>
+    <span class='webring-next'><a href='${sites[nextIndex]}'>&#62;&#62;</a></span>
   `);
 
 }

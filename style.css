@@ -273,8 +273,6 @@ form {
   margin-top: 10px;
   margin-bottom: 20px;
   text-shadow: 1px 1px 1px #aaa0de;
-  line-height: 13px;
-  font-size: 8pt;
   -webkit-box-shadow:inset -1px -1px 2px 0px #eddbda, inset 2px 2px 3px -1px #f5ebeb, 0px 2px 5px 0px #aaa0de;
   -moz-box-shadow:inset -1px -1px 2px 0px #eddbda, inset 2px 2px 3px -1px #f5ebeb, 0px 2px 5px 0px #aaa0de;
   box-shadow:inset -1px -1px 2px 0px #eddbda, inset 2px 2px 3px -1px #f5ebeb, 0px 2px 5px 0px #aaa0de;}

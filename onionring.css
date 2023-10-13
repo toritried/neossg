@@ -36,14 +36,6 @@
   }
 }
 
-#neossg table {
-  margin: 0 auto; /* centers the widget */
-}
-
-#neossg table tr td {
-  padding: 2px; /* creates some space between the links and text inside the widget */
-}
-
 #neossg .webring-prev {
   text-align:right;
 }
@@ -54,8 +46,4 @@
 
 #neossg .webring-next {
   text-align:left;
-}
-
-#neossg .webring-links {
-  font-size:small;
 }
