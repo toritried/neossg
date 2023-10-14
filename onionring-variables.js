@@ -7,7 +7,6 @@
 
 //the full URLs of all the sites in the ring
 var sites = [
-'https://lostletters.neocities.org/',
 'https://neossg.neocities.org/',
 'https://flamedfury.com/',
 'https://reduxflakes.neocities.org',
