@@ -15,7 +15,7 @@ var sites = [
 'https://10kph.neocities.org/',
 'https://dabric.neocities.org/',
 'https://punkfairie.net/',
-'https://fri11s.neocities.org/',
+'https://frills.dev',
 'https://san-tagoy.online/',
 'https://deadrodrick.neocities.org/home',
 'https://vm70.neocities.org',
