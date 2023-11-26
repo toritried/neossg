@@ -21,7 +21,8 @@ var sites = [
 'https://vm70.neocities.org',
 'https://whiona.me',
 'https://nonkiru.art/links/',
-'https://lime360.neocities.org/'
+'https://lime360.neocities.org/',
+'https://maria.town/'
 ];
 
 //the name of the ring
