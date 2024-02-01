@@ -23,7 +23,8 @@ var sites = [
 'https://nonkiru.art/links/',
 'https://lime360.neocities.org/',
 'https://maria.town/',
-'https://ghostologaster.neocities.org/'
+'https://ghostologaster.neocities.org/',
+'https://punkwasp.neocities.org/'
 ];
 
 //the name of the ring
