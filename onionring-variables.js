@@ -13,7 +13,7 @@ var sites = [
 'https://bytemoth.neocities.org/webrings/',
 'https://nenrikido.neocities.org/links/',
 'https://10kph.neocities.org/',
-'https://dabric.neocities.org/',
+'https://dabric.xyz',
 'https://punkfairie.net/',
 'https://frills.dev',
 'https://san-tagoy.online/',
