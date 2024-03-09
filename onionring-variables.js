@@ -21,7 +21,7 @@ var sites = [
 'https://vm70.neocities.org',
 'https://whiona.me',
 'https://nonkiru.art/links/',
-'https://lime360.neocities.org/',
+'https://lime360.nekoweb.org/',
 'https://maria.town/',
 'https://ghostologaster.neocities.org/',
 'https://punkwasp.neocities.org/'
