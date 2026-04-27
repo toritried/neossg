@@ -16,7 +16,7 @@ var sites = [
 'https://dabric.xyz',
 'https://punkfairie.net/',
 'https://frills.dev',
-'https://san-tagoy.online/',
+'https://getting-better.xyz/',
 'https://deadrodrick.neocities.org/home',
 'https://vm70.neocities.org',
 'https://whiona.me',
